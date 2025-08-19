@@ -107,7 +107,7 @@ const SignUp = () => {
                         </div>
                     </form>
                     <div className={styles.bottomContainer}>
-                        <p>Already signed up?</p>
+                        <p>Already signed?</p>
                         <Button variant='text' size='large' onClick={onNavigateToSignIn}>Login</Button>
                     </div>
                 </div>
