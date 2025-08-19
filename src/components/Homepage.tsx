@@ -129,7 +129,7 @@ const Homepage = () => {
             Authorization: `${AUTHORIZATION_PREFIX}${token}`
         };
 
-        const socket: WebSocket = new SockJS("http://localhost:8080/ws");
+        const socket: WebSocket = new SockJS("https://chat-app-latest-5h9y.onrender.com/ws");
         const client: Client = over(socket);
         client.connect(headers, onConnect, onError);
         setStompClient(client);
